@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: dukezheng0726/devops-project:1.0
+        #image: dukezheng0726/devops-project:1.0
+        image: gcr.io/google-samples/kubernetes-bootcamp:v1
         ports:
         - containerPort: 8080
